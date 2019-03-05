@@ -2,6 +2,7 @@
 
 namespace Smeechos\Simple_GDPR_Cookies\Includes;
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 class Load_Assets
 {

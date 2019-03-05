@@ -1,6 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 if( isset( $_GET[ 'tab' ] ) ) {
-    $tab = $_GET[ 'tab' ];
+    $tab = sanitize_text_field( $_GET[ 'tab' ] );
 } else {
     $tab = 'content';
 }

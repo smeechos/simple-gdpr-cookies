@@ -2,6 +2,8 @@
 
 namespace Smeechos\Simple_GDPR_Cookies\Includes;
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Modal
 {
     private $content, $modal;

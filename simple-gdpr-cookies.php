@@ -15,6 +15,8 @@
 
 namespace Smeechos\Simple_GDPR_Cookies;
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Simple_GDPR_Cookies {
 
     /**
@@ -57,7 +59,7 @@ new Simple_GDPR_Cookies();
  *
  * @return bool
  */
-function cookies_accepted() {
+function sgdpr_cookies_accepted() {
     if ( isset($_COOKIE[SGC_COOKIE_NAME]) && $_COOKIE[SGC_COOKIE_NAME] === 'true' ) {
         return true;
     } else {

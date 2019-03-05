@@ -2,6 +2,8 @@
 
 namespace Smeechos\Simple_GDPR_Cookies\Includes\Settings;
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Content_Settings extends Settings_Parent
 {
     /**

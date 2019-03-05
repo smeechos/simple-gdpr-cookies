@@ -2,6 +2,8 @@
 
 namespace Smeechos\Simple_GDPR_Cookies\Includes\Settings;
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Settings_Parent
 {
     private $option, $id, $title, $callback, $page, $options;
