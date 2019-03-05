@@ -282,20 +282,6 @@ class Settings_Parent
         echo $html;
     }
 
-    public function close_button_display( $args )
-    {
-        $color = '#b5b5b5';
-        $hover = '#a5a5a5';
-
-        if ( isset( $this->options[ $args['option'] ]['color'] ) ) {
-            $color = esc_html( $this->options[ $args['option'] ]['color'] );
-        }
-
-        if ( isset( $this->options[ $args['option'] ]['hover'] ) ) {
-            $hover = esc_html( $this->options[ $args['option'] ]['hover'] );
-        }
-    }
-
     /**
      * Returns all the tags that are allowed.
      *
