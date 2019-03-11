@@ -1,6 +1,10 @@
 === Simple GDPR Cookies ===
 Contributors: smeechos
-Tags: gdpr, cookies, general data protection regulation, privacy, consent, compliance
+Tags: gdpr, cookies, cookies law, eu cookie law, privacy, consent, compliance
+Requires at least: 3.3.1
+Tested up to: 5.1
+Requires PHP: 5.2.4
+Stable tag: 1.0.0
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
